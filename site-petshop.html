@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
     <title>site petshop</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-     <nav>
-        <a href="#login">login</a>
-        <a href="#serviços">serviços</a>
-        <a href="#produtos">produtos</a>          
-     </nav>
+        <nav>
+            <a href="#login">login</a>
+            <a href="#serviços">serviços</a>
+            <a href="#produtos">produtos</a>
+        </nav>
 
     </header>
 
@@ -26,44 +28,60 @@
             <input type="password" id="senha" placeholder="Digite sua senha" required>
 
             <button type="submit">Enviar</button>
-        
-    
-    
-    </form>
+
+
+
+        </form>
     </section>
-    
+
     <section class="servico">
 
         <h1>Nossos Serviços</h1>
-        
+
         <div>
             <h3>Banho & Tosa.</h3>
         </div>
-        
+
         <div>
             <h3>Hidratação.</h3>
         </div>
     </section>
 
     <section class="produtos">
-        <div>
-            <h1 style="text-decoration: underline;">Remedios</h1>
-            <hr>
-            <h2>Nexgard</h2>
-            <img src="https://www.petshopjunior.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/n/antipulgas-nexgard-para-caes-de-251-a-50kg-merial.png" width="300" alt="Aqui tem um nexgard para cachorros de ate 5 quilos ">
-            <h3>Nexgard para cachorros de 2,5 ate 5.0kg por apenas R$100</h3>
+        <h1 class="medicamentos" style="text-decoration: underline;">Medicamentos</h1>
+
+        <div class="nexgard">
+
+
+            <h2>Nexgard Spectra</h2>
+            <img src="imagemNexgard.png" width="330"
+                alt="Aqui tem um nexgard para cachorros de ate 15 quilos ">
+            <h4>Nexgard Spectra para cachorros de 7,5 ate 15kg, proteção contra pulgas, carrapatos e ácaros da sarna otodecica - duração 30 dias</h4>
+            <h5>Preço: R$99,99</h5>
+
+            <button class="botaonexgard">Adicionar ao carrinho</button>
 
         </div>
-        <br><hr>
-        <div>
+
+        <div class="simparic">
             <h2>Simparic</h2>
-            <img src="https://www2.zoetis.com.br/content/pt/pages/Especies/Caes-e-Gatos/Veterinario/Antiparasitarios/Simparic/_assets/caixa-de-5-mg.jpg" width="300" alt="aqui tem um simparic par cachorros de 1,5kg ate 2,5kg" >
-          <h3>Simparic para cachorros de 1,5 ate 2,5kg</h3>
+            <img src="ImagemSimparic.jpg"
+                width="300" alt="aqui tem um simparic par cachorros de 20 ate 40 quilos">
+            <h4>Simparic para cachorros de 20 ate 40kg, proteção contra pulgas, carrapatos e sarnas - duração 35 dias</h4>
+            <h5>Preço: R$94,99</h5>
+
+            <button class="botaosimparic">Adicionar ao carrinho</button>
 
         </div>
-        <br><hr>
-        <div>
-            
+
+        <div class="bravecto">
+            <h2>Bravecto</h2>
+            <img src="imagemBravecto.png" width="400"
+                alt="na imagem tem uma caixa de bravecto de 20 a 40 quilos">
+            <h4>Bravecto para cachorros de 20 a 40kg, proteção contra pulgas e carrapatos - Dose unica</h4>
+            <h5>Preço: R$109,99</h5>
+            <button class="botaobravecto">Adicionar ao carrinho</button>
+
         </div>
 
     </section>
@@ -71,6 +89,7 @@
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>

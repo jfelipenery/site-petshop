@@ -20,3 +20,50 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+
+.medicamentos{
+    text-align: center;
+    background-color: rgb(75, 199, 208);
+    padding: 10px;
+    margin-bottom: auto;
+}
+.nexgard{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(234, 219, 201);
+    padding: 10px;
+    
+}
+.botaonexgard:hover{
+    background-color: rgb(190, 186, 186);
+}
+.botaonexgard{
+    border-radius: 8px;
+}
+
+.simparic{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(234, 219, 201);
+    padding: 10px;
+}
+.botaosimparic:hover{
+    background-color: rgb(190, 186, 186);
+}
+.botaosimparic{
+    border-radius: 8px;
+}
+
+.bravecto{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(234, 219, 201);
+    padding: 10px;
+}
+.botaobravecto:hover{
+    background-color: rgb(190, 186, 186);
+}
+.botaobravecto{
+    border-radius: 8px;
+}
