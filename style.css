@@ -4,11 +4,11 @@ body {
 }
 
 nav {
-    
+
     background-color: black;
     padding: 8px 0;
     text-align: center;
-    
+
 }
 
 nav a {
@@ -22,48 +22,111 @@ nav a:hover {
 }
 
 
-.medicamentos{
+.medicamentos {
     text-align: center;
     background-color: rgb(75, 199, 208);
     padding: 10px;
     margin-bottom: auto;
+    border-radius: 5pc;
 }
-.nexgard{
+
+.nexgard {
     border: 1px solid black;
     text-align: center;
     background-color: rgb(234, 219, 201);
     padding: 10px;
-    
+    margin-top: 3px;
+
 }
-.botaonexgard:hover{
+
+.botaonexgard:hover {
     background-color: rgb(190, 186, 186);
 }
-.botaonexgard{
+
+.botaonexgard {
     border-radius: 8px;
 }
 
-.simparic{
+.simparic {
     border: 1px solid black;
     text-align: center;
     background-color: rgb(234, 219, 201);
     padding: 10px;
+    margin-top: 3px;
 }
-.botaosimparic:hover{
+
+.botaosimparic:hover {
     background-color: rgb(190, 186, 186);
 }
-.botaosimparic{
+
+.botaosimparic {
     border-radius: 8px;
 }
 
-.bravecto{
+.bravecto {
     border: 1px solid black;
     text-align: center;
     background-color: rgb(234, 219, 201);
-    padding: 10px;
+    padding: 15px;
+    margin-top: 3px;
 }
-.botaobravecto:hover{
+
+.botaobravecto:hover {
     background-color: rgb(190, 186, 186);
 }
-.botaobravecto{
+
+.botaobravecto {
     border-radius: 8px;
+}
+.ovosparacachorros{
+    text-align: center;
+    background-color: rgb(75, 199, 208);
+    padding: 10px;
+    border-radius: 5pc; 
+}
+
+.ovodepascoa {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(234, 219, 201);
+    padding: 15px;
+    margin-top: 3px;
+}
+
+.botaoovodapascoa:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.botaoovodapascoa {
+    border-radius: 8px;
+}
+
+.ovodepascoadois {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(234, 219, 201);
+    padding: 15px;
+    margin-top: 3px;
+}
+
+.botaoovodapascoadois {
+    border-radius: 8px;
+}
+
+.botaoovodapascoadois:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.ovodepascoatreis {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(234, 219, 201);
+    padding: 15px;
+    margin-top: 3px;
+}
+.botaoovodapascoatreis{
+    border-radius: 8px;
+}
+.botaoovodapascoatreis:hover{
+    background-color:rgb(190, 186, 186) ;
 }
