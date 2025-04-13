@@ -21,6 +21,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.medicamentospulga {
+    display: inline-flex;
+
+}
 
 .medicamentos {
     text-align: center;
@@ -30,13 +34,13 @@ nav a:hover {
     border-radius: 5pc;
 }
 
-.nexgard {
-    border: 1px solid black;
-    text-align: center;
-    background-color: rgb(234, 219, 201);
-    padding: 10px;
-    margin-top: 3px;
+.imagemnexgard {
+    height: 200px;
+}
 
+.nexgard {
+    text-align:center;
+    border: 1px solid black;
 }
 
 .botaonexgard:hover {
@@ -48,11 +52,12 @@ nav a:hover {
 }
 
 .simparic {
-    border: 1px solid black;
     text-align: center;
-    background-color: rgb(234, 219, 201);
-    padding: 10px;
-    margin-top: 3px;
+   border: 1px solid black;    
+}
+
+.imagemsimparic {
+    height: 200px;
 }
 
 .botaosimparic:hover {
@@ -63,12 +68,15 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.imagembravecto {
+    height: 200px;
+}
+
 .bravecto {
-    border: 1px solid black;
     text-align: center;
-    background-color: rgb(234, 219, 201);
-    padding: 15px;
-    margin-top: 3px;
+    border: 1px solid black;
+    padding: 5px;
+
 }
 
 .botaobravecto:hover {
@@ -78,19 +86,49 @@ nav a:hover {
 .botaobravecto {
     border-radius: 8px;
 }
-.ovosparacachorros{
+
+.imagemovoum {
+    height: 100px;
+}
+
+.imagemovodois {
+    height: 100px;
+}
+
+.imagemovotreis {
+    height: 100px;
+}
+
+.imagemovoquatro {
+    height: 100px;
+}
+
+.imagemovocinco {
+    height: 100px;
+}
+
+.imagemovoseis {
+    height: 100px;
+}
+
+.ovosparacaes {
+    display: flex;
+    text-align: center;
+}
+
+.ovosparacachorros {
     text-align: center;
     background-color: rgb(75, 199, 208);
     padding: 10px;
-    border-radius: 5pc; 
+    border-radius: 5pc;
 }
 
 .ovodepascoa {
     border: 1px solid black;
-    text-align: center;
-    background-color: rgb(234, 219, 201);
+    text-align:center;
+    background-color: rgb(255, 255, 255);
     padding: 15px;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .botaoovodapascoa:hover {
@@ -104,9 +142,9 @@ nav a:hover {
 .ovodepascoadois {
     border: 1px solid black;
     text-align: center;
-    background-color: rgb(234, 219, 201);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .botaoovodapascoadois {
@@ -120,13 +158,78 @@ nav a:hover {
 .ovodepascoatreis {
     border: 1px solid black;
     text-align: center;
-    background-color: rgb(234, 219, 201);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
-    margin-top: 3px;
+    margin-top: 5px;
 }
-.botaoovodapascoatreis{
+
+.botaoovodapascoatreis {
     border-radius: 8px;
 }
-.botaoovodapascoatreis:hover{
-    background-color:rgb(190, 186, 186) ;
+
+.botaoovodapascoatreis:hover {
+    background-color: rgb(190, 186, 186);
+}
+.petiscos{
+    text-align: center;
+    background-color: rgb(75, 199, 208);
+    padding: 10px;
+    margin-bottom: auto;
+    border-radius: 5pc;
+}
+.petiscoum {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin-top: 5px;
+    display: flex;
+}
+.petiscojoy{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    margin-top: 5px;
+}
+.imagempetiscoum{
+    height: 300px;
+     
+}
+.botaopetiscoum{
+    border-radius: 5px;
+}
+.botaopetiscoum:hover{
+    background-color: rgb(190, 186, 186);
+}
+.petiscokeldog{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    margin-top: 5px;
+}
+.imagempetiscodois{
+    height: 300px;
+}
+.botaopetiscodois{
+    border-radius: 5px;
+}
+.botaopetiscodois:hover{
+    background-color: rgb(190, 186, 186);
+}
+.petiscobiscrok{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    margin-top: 5px;
+}
+.imagempetiscotres{
+    height: 300px;
+}
+.botaopetiscotres{
+    border-radius: 5px;
+}
+.botaopetiscotres:hover{
+    background-color: rgb(190, 186, 186);
 }
