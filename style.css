@@ -5,6 +5,12 @@ body {
 
 nav {
 
+    position: fixed;
+    width: 100%;
+    background-color: #4BC7D0;
+    padding: 10px 0;
+
+
     background-color: black;
     padding: 8px 0;
     text-align: center;
@@ -12,9 +18,10 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: black;
     padding: 0 10px;
     text-decoration: none;
+    font-size: larger;
 }
 
 nav a:hover {
@@ -23,6 +30,10 @@ nav a:hover {
 
 .medicamentospulga {
     display: inline-flex;
+}
+
+.img-pets img {
+    width: 100%;  
 
 }
 
