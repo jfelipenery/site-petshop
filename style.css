@@ -36,8 +36,115 @@ nav a:hover {
     align-items: center;
 }
 
+.digite{
+    color: blue;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login{
+    color: blue;
+    margin: auto;
+    width: 300px;
+    box-shadow: 10px 10px 10px;
+    padding: 20px;
+
+
+    
+}
+
+form{
+    margin: 50%;
+    background-color: rgb(215, 207, 236);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    padding: 50px;
+}
+
+label{
+    display: inline;
+    padding: 5px;
+
+
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid cornflowerblue;
+   
+}
+.butao{
+   align-items: center;
+   text-align: center;
+   
+}
+
+.div-geral{
+    display: flex;
+}
+
+.servico {
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 20px;
+    /* width: 300px; */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servico h1 {
+    color: #333;
+    margin-bottom: 20px;
+    
+    /* display: flex; */
+    text-align: center
+    
+}
+
+.servico-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.servico-item h3 {
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.servico-botao {
+    background-color: #d4edda; /* Cor suave */
+    color: #155724; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.servico-botao:hover {
+    background-color: #c3e6cb; /* Cor suave no hover */
+}
+
+
 .medicamentospulga {
     display: inline-flex;
+    justify-content: space-around;
+
 }
 
 .medicamentos {
@@ -53,7 +160,7 @@ nav a:hover {
 
 .nexgard {
     text-align: center;
-    border: 1px solid black;
+    
 }
 
 .botaonexgard:hover {
@@ -66,7 +173,7 @@ nav a:hover {
 
 .simparic {
     text-align: center;
-    border: 1px solid black;
+    
 }
 
 .imagemsimparic {
@@ -87,7 +194,6 @@ nav a:hover {
 
 .bravecto {
     text-align: center;
-    border: 1px solid black;
     padding: 5px;
 
 }
@@ -127,6 +233,8 @@ nav a:hover {
 .ovosparacaes {
     display: flex;
     text-align: center;
+    justify-content: space-around;
+    
     
 }
 
@@ -138,7 +246,7 @@ nav a:hover {
 }
 
 .ovodepascoa {
-    border: 1px solid black;
+    border-radius: 5px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 15px;
@@ -154,8 +262,7 @@ nav a:hover {
 }
 
 .ovodepascoadois {
-    border: 1px solid black;
-    text-align: center;
+    text-align:center;
     background-color: rgb(255, 255, 255);
     padding: 15px;
     margin-top: 5px;
@@ -170,8 +277,7 @@ nav a:hover {
 }
 
 .ovodepascoatreis {
-    border: 1px solid black;
-    text-align: center;
+    text-align:center;
     background-color: rgb(255, 255, 255);
     padding: 15px;
     margin-top: 5px;
@@ -202,8 +308,7 @@ nav a:hover {
 }
 
 .petiscojoy {
-    border: 1px solid black;
-    text-align: center;
+    text-align:center;
     background-color: rgb(255, 255, 255);
     padding: 100px;
     margin-top: 5px;
@@ -223,8 +328,7 @@ nav a:hover {
 }
 
 .petiscokeldog {
-    border: 1px solid black;
-    text-align: center;
+    text-align:center;
     background-color: rgb(255, 255, 255);
     padding: 100px;
     margin-top: 5px;
@@ -243,7 +347,6 @@ nav a:hover {
 }
 
 .petiscobiscrok {
-    border: 1px solid black;
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 115px;
@@ -260,4 +363,9 @@ nav a:hover {
 
 .botaopetiscotres:hover {
     background-color: rgb(190, 186, 186);
+}
+footer{
+    background-color: deepskyblue;
+    padding: 30px;
+    text-align: center;
 }
