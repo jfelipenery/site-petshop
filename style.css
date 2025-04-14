@@ -4,17 +4,24 @@ body {
 }
 
 nav {
-    
+
+    position: fixed;
+    width: 100%;
+    background-color: #4BC7D0;
+    padding: 10px 0;
+
+
     background-color: black;
     padding: 8px 0;
     text-align: center;
-    
+
 }
 
 nav a {
-    color: white;
+    color: black;
     padding: 0 10px;
     text-decoration: none;
+    font-size: larger;
 }
 
 nav a:hover {
@@ -63,4 +70,297 @@ input{
    align-items: center;
    text-align: center;
    
+}
+
+.div-geral{
+    display: flex;
+}
+
+.servico {
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 20px;
+    /* width: 300px; */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.servico h1 {
+    color: #333;
+    margin-bottom: 20px;
+    
+    /* display: flex; */
+    text-align: center
+    
+}
+
+.servico-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.servico-item h3 {
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.servico-botao {
+    background-color: #d4edda; /* Cor suave */
+    color: #155724; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.servico-botao:hover {
+    background-color: #c3e6cb; /* Cor suave no hover */
+}
+
+
+.medicamentospulga {
+    display: inline-flex;
+}
+
+.img-pets img {
+    width: 100%;
+
+}
+
+.medicamentos {
+    text-align: center;
+    background-color: rgb(75, 199, 208);
+    padding: 10px;
+    margin-bottom: auto;
+    border-radius: 5pc;
+}
+
+.imagemnexgard {
+    height: 200px;
+}
+
+.nexgard {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.botaonexgard:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.botaonexgard {
+    border-radius: 8px;
+}
+
+.simparic {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.imagemsimparic {
+    height: 200px;
+}
+
+.botaosimparic:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.botaosimparic {
+    border-radius: 8px;
+}
+
+.imagembravecto {
+    height: 200px;
+}
+
+.bravecto {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.botaobravecto:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.botaobravecto {
+    border-radius: 8px;
+}
+
+.imagemovoum {
+    height: 150px;
+}
+
+.imagemovodois {
+    height: 220px;
+}
+
+.imagemovotreis {
+    height: 150px;
+}
+
+.imagemovoquatro {
+    height: 220px;
+}
+
+.imagemovocinco {
+    height: 150px;
+}
+
+.imagemovoseis {
+    height: 220px;
+}
+
+.ovosparacaes {
+    display: flex;
+    text-align: center;
+    
+}
+
+.ovosparacachorros {
+    text-align: center;
+    background-color: rgb(75, 199, 208);
+    padding: 10px;
+    border-radius: 5pc;
+}
+
+.ovodepascoa {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.botaoovodapascoa:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.botaoovodapascoa {
+    border-radius: 8px;
+}
+
+.ovodepascoadois {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.botaoovodapascoadois {
+    border-radius: 8px;
+}
+
+.botaoovodapascoadois:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.ovodepascoatreis {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.botaoovodapascoatreis {
+    border-radius: 8px;
+}
+
+.botaoovodapascoatreis:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.petiscos {
+    text-align: center;
+    background-color: rgb(75, 199, 208);
+    padding: 10px;
+    margin-bottom: auto;
+    border-radius: 5pc;
+}
+
+.petiscoum {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.petiscojoy {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    margin-top: 5px;
+}
+
+.imagempetiscoum {
+    height: 320px;
+    
+}
+
+.botaopetiscoum {
+    border-radius: 5px;
+}
+
+.botaopetiscoum:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.petiscokeldog {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    margin-top: 5px;
+}
+
+.imagempetiscodois {
+    height: 320px;
+}
+
+.botaopetiscodois {
+    border-radius: 5px;
+}
+
+.botaopetiscodois:hover {
+    background-color: rgb(190, 186, 186);
+}
+
+.petiscobiscrok {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 115px;
+    margin-top: 5px;
+}
+
+.imagempetiscotres {
+    height: 300px;
+}
+
+.botaopetiscotres {
+    border-radius: 5px;
+}
+
+.botaopetiscotres:hover {
+    background-color: rgb(190, 186, 186);
 }
