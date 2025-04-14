@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 .img-pets img {
-    width: 100%;  
+    width: 100%;
 
 }
 
@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 .nexgard {
-    text-align:center;
+    text-align: center;
     border: 1px solid black;
 }
 
@@ -64,7 +64,7 @@ nav a:hover {
 
 .simparic {
     text-align: center;
-   border: 1px solid black;    
+    border: 1px solid black;
 }
 
 .imagemsimparic {
@@ -99,32 +99,33 @@ nav a:hover {
 }
 
 .imagemovoum {
-    height: 100px;
+    height: 150px;
 }
 
 .imagemovodois {
-    height: 100px;
+    height: 220px;
 }
 
 .imagemovotreis {
-    height: 100px;
+    height: 150px;
 }
 
 .imagemovoquatro {
-    height: 100px;
+    height: 220px;
 }
 
 .imagemovocinco {
-    height: 100px;
+    height: 150px;
 }
 
 .imagemovoseis {
-    height: 100px;
+    height: 220px;
 }
 
 .ovosparacaes {
     display: flex;
     text-align: center;
+    
 }
 
 .ovosparacachorros {
@@ -136,7 +137,7 @@ nav a:hover {
 
 .ovodepascoa {
     border: 1px solid black;
-    text-align:center;
+    text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 15px;
     margin-top: 5px;
@@ -181,13 +182,15 @@ nav a:hover {
 .botaoovodapascoatreis:hover {
     background-color: rgb(190, 186, 186);
 }
-.petiscos{
+
+.petiscos {
     text-align: center;
     background-color: rgb(75, 199, 208);
     padding: 10px;
     margin-bottom: auto;
     border-radius: 5pc;
 }
+
 .petiscoum {
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -195,52 +198,64 @@ nav a:hover {
     margin-top: 5px;
     display: flex;
 }
-.petiscojoy{
+
+.petiscojoy {
     border: 1px solid black;
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 100px;
     margin-top: 5px;
 }
-.imagempetiscoum{
-    height: 300px;
-     
+
+.imagempetiscoum {
+    height: 320px;
+
 }
-.botaopetiscoum{
+
+.botaopetiscoum {
     border-radius: 5px;
 }
-.botaopetiscoum:hover{
+
+.botaopetiscoum:hover {
     background-color: rgb(190, 186, 186);
 }
-.petiscokeldog{
+
+.petiscokeldog {
     border: 1px solid black;
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 100px;
     margin-top: 5px;
 }
-.imagempetiscodois{
-    height: 300px;
+
+.imagempetiscodois {
+    height: 320px;
 }
-.botaopetiscodois{
+
+.botaopetiscodois {
     border-radius: 5px;
 }
-.botaopetiscodois:hover{
+
+.botaopetiscodois:hover {
     background-color: rgb(190, 186, 186);
 }
-.petiscobiscrok{
+
+.petiscobiscrok {
     border: 1px solid black;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    padding: 100px;
+    padding: 115px;
     margin-top: 5px;
 }
-.imagempetiscotres{
+
+.imagempetiscotres {
     height: 300px;
 }
-.botaopetiscotres{
+
+.botaopetiscotres {
     border-radius: 5px;
 }
-.botaopetiscotres:hover{
+
+.botaopetiscotres:hover {
     background-color: rgb(190, 186, 186);
 }
