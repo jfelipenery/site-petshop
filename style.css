@@ -259,3 +259,8 @@ nav a:hover {
 .botaopetiscotres:hover {
     background-color: rgb(190, 186, 186);
 }
+footer{
+    background-color: deepskyblue;
+    padding: 30px;
+    text-align: center;
+}
