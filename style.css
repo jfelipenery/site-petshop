@@ -30,6 +30,8 @@ nav a:hover {
 
 .div-geral{
     display: flex;
+    border-radius: none;
+    box-shadow: lightgreen;
 }
 
 .servico {
@@ -59,9 +61,11 @@ nav a:hover {
     background-color: #fff;
     border-radius: 6px;
     border: 1px solid #ddd;
+    box-shadow: lightgreen;
     display: flex;
     flex-direction: column;
     width: 300px;
+    
 }
 
 .servico-item h3 {
