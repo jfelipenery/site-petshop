@@ -27,22 +27,24 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+.img-pets img {
+    width: 100%;
+
+}
+.produtosum{
+    padding: 10px 100px;
+    align-items: center;
+}
 
 .medicamentospulga {
     display: inline-flex;
 }
 
-.img-pets img {
-    width: 100%;
-
-}
-
 .medicamentos {
-    text-align: center;
+    text-align:center;
     background-color: rgb(75, 199, 208);
-    padding: 10px;
-    margin-bottom: auto;
-    border-radius: 5pc;
+    padding: 10px ;
+    border-radius: 8px;
 }
 
 .imagemnexgard {
@@ -209,7 +211,7 @@ nav a:hover {
 
 .imagempetiscoum {
     height: 320px;
-    
+
 }
 
 .botaopetiscoum {
