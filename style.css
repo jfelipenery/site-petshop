@@ -82,6 +82,8 @@ input{
 
 .div-geral{
     display: flex;
+    border-radius: none;
+    box-shadow: lightgreen;
 }
 
 .servico {
@@ -111,9 +113,11 @@ input{
     background-color: #fff;
     border-radius: 6px;
     border: 1px solid #ddd;
+    box-shadow: lightgreen;
     display: flex;
     flex-direction: column;
     width: 300px;
+    
 }
 
 .servico-item h3 {
