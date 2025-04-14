@@ -29,27 +29,35 @@ nav a:hover {
 }
 
 .digite{
-    color: blue;
+    color: black;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .login{
-    color: blue;
+    color:  rgb(75, 199, 208);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
     margin: auto;
     width: 300px;
-    box-shadow: 10px 10px 10px;
-    padding: 20px;
+    box-shadow: 20px 20px 20px;
+    padding: 60px;
 
 
     
 }
 
+.entrar{
+    height: 50vh;
+    alig
+}
+
 form{
     margin: 50%;
-    background-color: rgb(215, 207, 236);
+    background-color: #d4edda;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 10px 10px;
     padding: 50px;
 }
 
@@ -63,7 +71,7 @@ label{
 input{
     width: 100%;
     border-radius: 5px;
-    border: 2px solid cornflowerblue;
+    border: 2px solid  #4BC7D0;
    
 }
 .butao{
