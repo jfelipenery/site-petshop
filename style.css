@@ -146,27 +146,34 @@ input{
 .servico-botao:hover {
     background-color: #c3e6cb; /* Cor suave no hover */
 }
-.produtosum{
+.medicamentos{ /*texto medicamentos*/
+    border-radius: 10px;
+    background-color: #4BC7D0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.produtosum{ /*Section Nexgard*/
     width: 100%;
-    padding: 0 40px;
+    padding: 0 105px;
     
 }
-.produtosdois{
+.produtosdois{/*Section Ovos de Pascoa*/
     width: 100%;
-    padding: 0 40px;
+    padding: 0 105px;
     
 }
-.produtostres{
+.produtostres{/*Section Petiscos para Cães*/
     width: 100%;
-    padding: 0 40px;
+    padding: 0 105px;
     
 }
-.card-body{
-    border: 1px solid black
+.card-body{/*Borda do texto dos itens */
+    border: 1px solid black; 
     
 }
-.card-group{
-    gap: 20px;
+.card-group{/*espaçamento entre todos os itens*/
+    gap: 20px; 
 }
 footer{
     background-color: deepskyblue;
